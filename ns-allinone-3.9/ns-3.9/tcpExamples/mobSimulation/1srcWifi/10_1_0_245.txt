@@ -1,0 +1,16 @@
+10.1.0.245$n/a$n/a$n/a$7877$21.5082$InitialAuth
+10.1.0.245$n/a$n/a$n/a$7878$23.5082$PacketTransfer
+10.1.0.245$n/a$n/a$n/a$7879$25.5082$PacketTransfer
+10.1.0.245$n/a$n/a$n/a$7880$27.5082$PacketTransfer
+10.1.0.245$n/a$n/a$n/a$7881$29.5082$PacketTransfer
+10.1.0.245$n/a$n/a$n/a$7882$31.5082$PacketTransfer
+10.1.0.245$n/a$n/a$n/a$7883$33.5082$PacketTransfer
+10.1.0.245$n/a$n/a$n/a$7884$35.5082$PacketTransfer
+10.1.0.245$n/a$n/a$n/a$7885$37.5082$PacketTransfer
+10.1.0.245$n/a$n/a$n/a$7886$39.5082$PacketTransfer
+10.1.0.245$n/a$n/a$n/a$7887$43.0082$Disconnection
+10.1.0.245$n/a$n/a$n/a$7888$64.5082$Reuse
+10.1.0.245$n/a$n/a$n/a$7889$66.5082$Roaming
+10.1.0.245$n/a$n/a$n/a$7891$68.5082$PacketTransfer
+10.1.0.245$n/a$n/a$n/a$7892$70.5082$PacketTransfer
+10.1.0.245$n/a$n/a$n/a$7892$70.5082$

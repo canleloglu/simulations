@@ -1,0 +1,233 @@
+## -*- Mode: python; py-indent-offset: 4; indent-tabs-mode: nil; coding: utf-8; -*-
+
+def build(bld):
+    obj = bld.create_ns3_program('hello-simulator')
+    obj.source = 'hello-simulator.cc'
+        
+    obj = bld.create_ns3_program('first', ['core', 'simulator', 'point-to-point', 'internet-stack'])
+    obj.source = 'first.cc'
+        
+    obj = bld.create_ns3_program('second', ['core', 'simulator', 'point-to-point', 'csma', 'internet-stack'])
+    obj.source = 'second.cc'
+
+    obj = bld.create_ns3_program('dene', ['core', 'simulator', 'point-to-point', 'csma', 'internet-stack'])
+    obj.source = 'dene.cc'
+        
+    obj = bld.create_ns3_program('third', ['core', 'simulator', 'point-to-point', 'csma', 'wifi', 'internet-stack'])
+    obj.source = 'third.cc'
+
+    obj = bld.create_ns3_program('fourth', ['core'])
+    obj.source = 'fourth.cc'
+
+    obj = bld.create_ns3_program('fifth', ['core', 'simulator', 'point-to-point', 'internet-stack'])
+    obj.source = 'fifth.cc'
+
+    obj = bld.create_ns3_program('sixth', ['core', 'simulator', 'point-to-point', 'internet-stack'])
+    obj.source = 'sixth.cc'
+
+    obj = bld.create_ns3_program('deneme', ['core', 'simulator', 'point-to-point', 'csma', 'wifi', 'internet-stack'])
+    obj.source = 'deneme.cc'
+
+    obj = bld.create_ns3_program('third2', ['core', 'simulator', 'point-to-point', 'csma', 'wifi', 'internet-stack'])
+    obj.source = 'third2.cc'
+
+    obj = bld.create_ns3_program('csma', ['core', 'simulator', 'point-to-point', 'csma', 'wifi', 'internet-stack'])
+    obj.source = 'csma.cc'
+
+    obj = bld.create_ns3_program('ping', ['core', 'simulator', 'point-to-point', 'csma', 'wifi', 'internet-stack'])
+    obj.source = 'ping.cc'
+
+    obj = bld.create_ns3_program('wifitcp', ['core', 'simulator', 'point-to-point', 'csma', 'wifi', 'internet-stack'])
+    obj.source = 'wifitcp.cc'
+    
+    obj = bld.create_ns3_program('csmatcp', ['core', 'simulator', 'point-to-point', 'csma', 'wifi', 'internet-stack'])
+    obj.source = 'csmatcp.cc'
+
+    obj = bld.create_ns3_program('auth', ['core', 'simulator', 'point-to-point', 'csma', 'wifi', 'internet-stack'])
+    obj.source = 'auth.cc'
+
+    obj = bld.create_ns3_program('tcpwifi', ['core', 'simulator', 'point-to-point', 'csma', 'wifi', 'internet-stack'])
+    obj.source = 'tcpwifi.cc'
+
+    obj = bld.create_ns3_program('tcpmesh', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'tcpmesh.cc'
+
+    obj = bld.create_ns3_program('tcpcsma', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'tcpcsma.cc'
+
+    obj = bld.create_ns3_program('1tcp_gidis_wifi', ['core', 'simulator','mobility','wifi', 'csma', 'mesh'])
+    obj.source = '1tcp_gidis_wifi.cc'
+
+    obj = bld.create_ns3_program('2tcp_gidis_mesh', ['core', 'simulator','mobility','wifi', 'csma', 'mesh'])
+    obj.source = '2tcp_gidis_mesh.cc'
+
+    obj = bld.create_ns3_program('3tcp_gidis_csma', ['core', 'simulator','mobility','wifi', 'csma', 'mesh'])
+    obj.source = '3tcp_gidis_csma.cc'
+
+    obj = bld.create_ns3_program('4tcp_gelis_csma', ['core', 'simulator','mobility','wifi', 'csma', 'mesh'])
+    obj.source = '4tcp_gelis_csma.cc'
+
+    obj = bld.create_ns3_program('5tcp_gelis_mesh', ['core', 'simulator','mobility','wifi', 'csma', 'mesh'])
+    obj.source = '5tcp_gelis_mesh.cc'
+
+    obj = bld.create_ns3_program('6tcp_gelis_wifi', ['core', 'simulator','mobility','wifi', 'csma', 'mesh'])
+    obj.source = '6tcp_gelis_wifi.cc'
+
+    obj = bld.create_ns3_program('changeAlias', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'changeAlias.cc'
+
+    obj = bld.create_ns3_program('aliaschange', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'aliaschange.cc'
+
+    obj = bld.create_ns3_program('baseSimulation1', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'baseSimulation1.cc'
+
+    obj = bld.create_ns3_program('baseSimulation2', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'baseSimulation2.cc'
+
+    obj = bld.create_ns3_program('baseSimulation3', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'baseSimulation3.cc'
+
+    obj = bld.create_ns3_program('baseSimulation4', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'baseSimulation4.cc'
+
+    obj = bld.create_ns3_program('baseSimulation5', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'baseSimulation5.cc'
+
+    obj = bld.create_ns3_program('baseSimulation6', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'baseSimulation6.cc'
+
+    obj = bld.create_ns3_program('multSimulation1', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'multSimulation1.cc'
+
+    obj = bld.create_ns3_program('multSimulation2', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'multSimulation2.cc'
+
+    obj = bld.create_ns3_program('multSimulation3', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'multSimulation3.cc'
+
+    obj = bld.create_ns3_program('multSimulation4', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'multSimulation4.cc'
+
+    obj = bld.create_ns3_program('multSimulation5', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'multSimulation5.cc'
+
+    obj = bld.create_ns3_program('multSimulation6', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'multSimulation6.cc'
+
+    obj = bld.create_ns3_program('wifiDeneme', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'wifiDeneme.cc'
+
+    obj = bld.create_ns3_program('handoff', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'handoff.cc'
+
+    obj = bld.create_ns3_program('compSimulation1', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'compSimulation1.cc'
+
+    obj = bld.create_ns3_program('mobSimulation1', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'mobSimulation1.cc'
+
+    obj = bld.create_ns3_program('mobSimulation2', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'mobSimulation2.cc'
+
+    obj = bld.create_ns3_program('mobSimulation3', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'mobSimulation3.cc'
+
+    obj = bld.create_ns3_program('mobSimulation4', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'mobSimulation4.cc'
+
+    obj = bld.create_ns3_program('mobSimulation5', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'mobSimulation5.cc'
+
+    obj = bld.create_ns3_program('mobSimulation6', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'mobSimulation6.cc'
+
+    obj = bld.create_ns3_program('unitSimulation1', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'unitSimulation1.cc'
+
+    obj = bld.create_ns3_program('unitSimulation2', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'unitSimulation2.cc'
+
+    obj = bld.create_ns3_program('unitSimulation3', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'unitSimulation3.cc'
+
+    obj = bld.create_ns3_program('unitSimulation4', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'unitSimulation4.cc'
+
+    obj = bld.create_ns3_program('unitSimulation5', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'unitSimulation5.cc'
+
+    obj = bld.create_ns3_program('unitSimulation6', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'unitSimulation6.cc'
+
+    obj = bld.create_ns3_program('discSimulation1', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'discSimulation1.cc'
+
+    obj = bld.create_ns3_program('discSimulation2', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'discSimulation2.cc'
+
+    obj = bld.create_ns3_program('discSimulation3', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'discSimulation3.cc'
+
+    obj = bld.create_ns3_program('discSimulation4', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'discSimulation4.cc'
+
+    obj = bld.create_ns3_program('discSimulation5', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'discSimulation5.cc'
+
+    obj = bld.create_ns3_program('discSimulation6', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'discSimulation6.cc'
+
+    obj = bld.create_ns3_program('seamlessSimulation', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'seamlessSimulation.cc'
+
+    obj = bld.create_ns3_program('roamingSimulation', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'roamingSimulation.cc'
+
+    obj = bld.create_ns3_program('updateSimulation1', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'updateSimulation1.cc'
+
+    obj = bld.create_ns3_program('updateSimulation2', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'updateSimulation2.cc'
+
+    obj = bld.create_ns3_program('updateSimulation3', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'updateSimulation3.cc'
+
+    obj = bld.create_ns3_program('accessAuth', ['core', 'simulator', 'point-to-point', 'internet-stack'])
+    obj.source = 'accessAuth.cc'
+
+    obj = bld.create_ns3_program('reallifeSimulation1', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'reallifeSimulation1.cc'
+
+    obj = bld.create_ns3_program('reallifeSimulation2', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'reallifeSimulation2.cc'
+
+    obj = bld.create_ns3_program('reallifeSimulation3', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'reallifeSimulation3.cc'
+
+    obj = bld.create_ns3_program('reallifeSimulation4', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'reallifeSimulation4.cc'
+
+    obj = bld.create_ns3_program('reallifeSimulation5', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'reallifeSimulation5.cc'
+
+    obj = bld.create_ns3_program('reallifeSimulation6', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'reallifeSimulation6.cc'
+
+    obj = bld.create_ns3_program('unit1', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'unit1.cc'
+
+    obj = bld.create_ns3_program('unit2', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'unit2.cc'
+
+    obj = bld.create_ns3_program('unit3', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'unit3.cc'
+
+    obj = bld.create_ns3_program('unit4', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'unit4.cc'
+
+    obj = bld.create_ns3_program('unit5', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'unit5.cc'
+
+    obj = bld.create_ns3_program('unit6', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'unit6.cc'

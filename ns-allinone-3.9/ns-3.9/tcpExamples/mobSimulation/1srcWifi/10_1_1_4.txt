@@ -1,0 +1,17 @@
+10.1.1.4$n/a$n/a$n/a$8373$17.5082$InitialAuth
+10.1.1.4$n/a$n/a$n/a$8374$19.5082$PacketTransfer
+10.1.1.4$n/a$n/a$n/a$8375$21.5082$PacketTransfer
+10.1.1.4$n/a$n/a$n/a$8376$23.5082$PacketTransfer
+10.1.1.4$n/a$n/a$n/a$8377$25.5082$PacketTransfer
+10.1.1.4$n/a$n/a$n/a$8378$27.5082$PacketTransfer
+10.1.1.4$n/a$n/a$n/a$8379$29.5082$PacketTransfer
+10.1.1.4$n/a$n/a$n/a$8380$31.5082$PacketTransfer
+10.1.1.4$n/a$n/a$n/a$8381$33.5082$PacketTransfer
+10.1.1.4$n/a$n/a$n/a$8382$35.5082$PacketTransfer
+10.1.1.4$n/a$n/a$n/a$8383$39.0082$Disconnection
+10.1.1.4$n/a$n/a$n/a$8384$62.5082$Reuse
+10.1.1.4$n/a$n/a$n/a$8385$64.5082$PacketTransfer
+10.1.1.4$n/a$n/a$n/a$8386$66.5082$SeamlessMobility
+10.1.1.4$n/a$n/a$n/a$8387$68.5082$PacketTransfer
+10.1.1.4$n/a$n/a$n/a$8388$70.5082$PacketTransfer
+10.1.1.4$n/a$n/a$n/a$8388$70.5082$

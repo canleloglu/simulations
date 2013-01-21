@@ -1,0 +1,15 @@
+10.1.0.62$n/a$n/a$n/a$1987$23.5082$InitialAuth
+10.1.0.62$n/a$n/a$n/a$1988$25.5082$PacketTransfer
+10.1.0.62$n/a$n/a$n/a$1989$27.5082$PacketTransfer
+10.1.0.62$n/a$n/a$n/a$1990$29.5082$PacketTransfer
+10.1.0.62$n/a$n/a$n/a$1991$31.5082$PacketTransfer
+10.1.0.62$n/a$n/a$n/a$1992$33.5082$PacketTransfer
+10.1.0.62$n/a$n/a$n/a$1993$35.5082$PacketTransfer
+10.1.0.62$n/a$n/a$n/a$1994$37.5082$PacketTransfer
+10.1.0.62$n/a$n/a$n/a$1995$39.5082$PacketTransfer
+10.1.0.62$n/a$n/a$n/a$1996$41.5082$PacketTransfer
+10.1.0.62$n/a$n/a$n/a$1997$45.0082$Disconnection
+10.1.0.62$n/a$n/a$n/a$1998$66.5082$Reuse
+10.1.0.62$n/a$n/a$n/a$1999$68.5082$Roaming
+10.1.0.62$n/a$n/a$n/a$2001$70.5082$PacketTransfer
+10.1.0.62$n/a$n/a$n/a$2001$70.5082$

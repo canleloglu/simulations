@@ -1,0 +1,4 @@
+10.1.0.2$n/a$n/a$n/a$4$13.5082$InitialAuth
+10.1.0.2$n/a$n/a$n/a$5$15.5082$PacketTransfer
+10.1.0.2$n/a$n/a$n/a$6$17.5082$PacketTransfer
+10.1.0.2$n/a$n/a$n/a$7$19.5082$PacketTransfer

@@ -1,0 +1,29 @@
+## -*- Mode: python; py-indent-offset: 4; indent-tabs-mode: nil; coding: utf-8; -*-
+
+def build(bld):
+    obj = bld.create_ns3_program('mesh', ['core', 'simulator', 'mobility', 'wifi', 'mesh'])
+    obj.source = 'mesh.cc'
+
+    obj = bld.create_ns3_program('mesh2', ['core', 'simulator', 'mobility', 'wifi', 'mesh'])
+    obj.source = 'mesh2.cc'
+
+    obj = bld.create_ns3_program('mesh3', ['core', 'simulator', 'mobility', 'wifi', 'mesh'])
+    obj.source = 'mesh3.cc'
+
+    obj = bld.create_ns3_program('meshdeneme', ['core', 'simulator', 'mobility', 'wifi', 'mesh'])
+    obj.source = 'meshdeneme.cc'
+
+    obj = bld.create_ns3_program('wifi-mesh', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'wifi-mesh.cc'
+
+    obj = bld.create_ns3_program('multiple-interface', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'multiple-interface.cc'
+
+    obj = bld.create_ns3_program('amanha', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'amanha.cc'
+
+    obj = bld.create_ns3_program('bastan_mesh', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'bastan_mesh.cc'
+
+    obj = bld.create_ns3_program('meshtcp', ['core', 'simulator','mobility','wifi', 'mesh'])
+    obj.source = 'meshtcp.cc'

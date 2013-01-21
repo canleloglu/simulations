@@ -1,0 +1,23 @@
+## -*- Mode: python; py-indent-offset: 4; indent-tabs-mode: nil; coding: utf-8; -*-
+
+def build(bld):
+    module = bld.create_ns3_module('onoff', ['core', 'simulator', 'node'])
+    module.source = [
+        'onoff-application.cc',
+        ]
+    headers = bld.new_task_gen('ns3header')
+    headers.module = 'onoff'
+    headers.source = [
+        'onoff-application.h',
+        ]
+
+    module = bld.create_ns3_module('send', ['core', 'simulator', 'node'])
+    module.source = [
+        'send-application.cc',
+        ]
+    headers = bld.new_task_gen('ns3header')
+    headers.module = 'send'
+    headers.source = [
+        'send-application.h',
+        ]
+

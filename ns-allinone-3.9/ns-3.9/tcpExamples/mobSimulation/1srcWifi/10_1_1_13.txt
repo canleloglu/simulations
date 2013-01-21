@@ -1,0 +1,16 @@
+10.1.1.13$n/a$n/a$n/a$8647$19.5082$InitialAuth
+10.1.1.13$n/a$n/a$n/a$8648$21.5082$PacketTransfer
+10.1.1.13$n/a$n/a$n/a$8649$23.5082$PacketTransfer
+10.1.1.13$n/a$n/a$n/a$8650$25.5082$PacketTransfer
+10.1.1.13$n/a$n/a$n/a$8651$27.5082$PacketTransfer
+10.1.1.13$n/a$n/a$n/a$8652$29.5082$PacketTransfer
+10.1.1.13$n/a$n/a$n/a$8653$31.5082$PacketTransfer
+10.1.1.13$n/a$n/a$n/a$8654$33.5082$PacketTransfer
+10.1.1.13$n/a$n/a$n/a$8655$35.5082$PacketTransfer
+10.1.1.13$n/a$n/a$n/a$8656$37.5082$PacketTransfer
+10.1.1.13$n/a$n/a$n/a$8657$41.0082$Disconnection
+10.1.1.13$n/a$n/a$n/a$8658$64.5082$Reuse
+10.1.1.13$n/a$n/a$n/a$8659$66.5082$PacketTransfer
+10.1.1.13$n/a$n/a$n/a$8660$68.5082$PacketTransfer
+10.1.1.13$n/a$n/a$n/a$8661$70.5082$SeamlessMobility
+10.1.1.13$n/a$n/a$n/a$8661$70.5082$
